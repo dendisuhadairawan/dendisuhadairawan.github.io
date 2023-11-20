@@ -9,12 +9,10 @@
     <title>Aplikasi Rental Mobil Sederhana</title>
   </head>
   <body>
-    <!-- Splash screen -->
     <div id="splash-screen">
       <img src="splash-icon.png" alt="Splash Icon" />
       <p>Loading...</p>
     </div>
-
     <h1>Aplikasi Rental Mobil Sederhana</h1>
     <fieldset id="rentalForm">
       <legend>Input Form</legend>
@@ -29,9 +27,7 @@
       <button type="button" onclick="addOrder()">Tambah Pesanan</button>
     </fieldset>
     <br />
-    <table id="orders-table">
-      <!-- Tabel pesanan akan ditampilkan di sini -->
-    </table>
+    <table id="orders-table"></table>
 
     <br />
     <div id="payment-details">
@@ -42,8 +38,6 @@
           <option value="cash">Tunai</option>
           <option value="credit">Kredit</option>
         </select>
-
-        <!-- Tambahkan elemen formulir untuk jumlah pembayaran -->
         <label for="payment-amount">Jumlah Pembayaran:</label>
         <input type="number" id="payment-amount" name="payment-amount" />
 
@@ -51,9 +45,7 @@
           Hitung Pembayaran
         </button>
 
-        <div id="payment-result">
-          <!-- Detail pembayaran akan ditampilkan di sini -->
-        </div>
+        <div id="payment-result"></div>
       </fieldset>
       <br />
       <button id="print-button" onclick="printReceipt()">Print</button>
