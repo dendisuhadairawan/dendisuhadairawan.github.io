@@ -82,3 +82,48 @@ justify-content: center;
     flex-direction: row;
     margin-bottom: 20px;
   }
+  @media print {
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        text-align: center;
+        color: #2720eb;
+    }
+
+    section {
+        margin: 0 auto;
+        width: 80%;
+    }
+    p,
+    h2,
+    img,
+    .car-container,
+    .car-article,
+    #splash-screen {
+        display: none; /* Sembunyikan elemen yang tidak ingin dicetak */
+    }
+
+    /* Gaya untuk tabel pesanan di tampilan cetak */
+    #orders-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 2em auto;
+    }
+
+    #orders-table th,
+    #orders-table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    /* Gaya untuk total pembayaran di tampilan cetak */
+    #total-amount {
+        margin-top: 10px;
+        font-weight: bold;
+    }
+}
