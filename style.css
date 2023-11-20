@@ -1,14 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 0;
     padding: 0;
 }
 
 h1 {
     text-align: center;
     color: #2720eb;
-  }
+}
+
 header {
     background-color: rgb(51, 51, 51);
     color: white;
@@ -18,13 +18,15 @@ header {
 
 section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    padding: 2em;
+    padding: 1em;
 }
 
 .car {
     text-align: center;
-    max-width: 300px;
+    max-width: 100%;
+    margin: 1em;
 }
 
 button {
@@ -37,7 +39,7 @@ button {
 }
 
 #booking-form {
-    max-width: 400px;
+    max-width: 100%;
     margin: 2em auto;
     padding: 1em;
     background-color: #f2f2f2;
@@ -47,6 +49,7 @@ button {
 .hidden {
     display: none;
 }
+
 #splash-screen {
     display: flex;
     flex-direction: column;
@@ -55,24 +58,25 @@ button {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     background-color: #3498db; /* Warna latar belakang splash screen */
     color: #fff; /* Warna teks splash screen */
 }
 
 #splash-screen img {
-    width: 100px; /* Ukuran ikon splash screen */
-    height: 100px;
+    width: 50px; /* Ukuran ikon splash screen */
+    height: 50px;
 }
+
 .car-container {
     display: inline-block;
-    width: 40%; /* Set lebar container */
+    width: 100%; /* Set lebar container */
     margin: 1%;
     text-align: center;
-  }
-  
-  /* Tambahkan gaya untuk artikel mobil */
-  .car-article {
+}
+
+/* Tambahkan gaya untuk artikel mobil */
+.car-article {
     margin-bottom: 20px;
-  }
+}
