@@ -1,0 +1,30 @@
+{
+  "theme_color": "#4349f9",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "purpose": "maskable",
+      "sizes": "512x512",
+      "src": "icon.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "512x512",
+      "src": "icon.png",
+      "type": "image/png"
+    }
+  ],
+  "orientation": "portrait",
+  "display": "standalone",
+  "dir": "auto",
+  "lang": "id",
+  "name": "Rental Mobil Sederhana",
+  "short_name": "Rental",
+  "description": "Aplikasi Rental Mobil",
+  "start_url": "/index.html",
+  "display_override": [
+    "standalone",
+    "window-controls-overlay"
+  ]
+}
