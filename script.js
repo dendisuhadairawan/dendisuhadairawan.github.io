@@ -204,7 +204,6 @@ function printReceipt() {
     // Sembunyikan elemen-elemen yang tidak ingin dicetak
     document.querySelector('body').classList.add('printing');
     document.getElementById('splash-screen').style.display = 'none';
-    document.getElementById('booking-form').style.display = 'none';
 
     // Panggil fungsi pencetakan browser
     window.print();
@@ -212,5 +211,4 @@ function printReceipt() {
     // Tampilkan kembali elemen-elemen yang disembunyikan setelah pencetakan selesai
     document.querySelector('body').classList.remove('printing');
     document.getElementById('splash-screen').style.display = 'flex';
-    document.getElementById('booking-form').style.display = 'block';
 }
