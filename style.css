@@ -71,7 +71,7 @@ button {
 
 .car-container {
     display: inline-block;
-    width: 100%; /* Set lebar container */
+    width: 50%; /* Set lebar container */
     margin: 1%;
     text-align: center;
 }
