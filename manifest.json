@@ -19,12 +19,9 @@
   "display": "standalone",
   "dir": "auto",
   "lang": "id",
-  "name": "Rental Mobil Sederhana",
-  "short_name": "Rental",
-  "description": "Aplikasi Rental Mobil",
+  "name": "Aplikasi Rental Mobil Sederhana",
+  "short_name": "RentalMobil",
+  "description": "Aplikasi Rental Mobil Sederhana",
   "start_url": "/index.html",
-  "display_override": [
-    "standalone",
-    "window-controls-overlay"
-  ]
+  "display_override": ["standalone", "window-controls-overlay"]
 }
